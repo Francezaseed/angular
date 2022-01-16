@@ -1,0 +1,49 @@
+<div class="banner">
+    <div class="content">
+        <h1>Photo your favorite</h1><br>
+        <a routerLink="/photo">WATCH NOW <i class="bi bi-arrow-right"></i></a>
+    </div>
+</div>
+<!-- step  -->
+<div class="container mt-5 mb-5">
+    <h1 class="text-center" style="font-style: italic;">How to get <span class="highlight" style="font-style: italic;">Photo</span></h1>
+    <div class="row mt-5">
+        <!-- one  -->
+        <div class="col-lg-4 mt-2">
+            <div class="stepBox">
+                <h1>1</h1>
+                <p>Select Photo</p>
+            </div>
+        </div>
+<!-- two -->
+        <div class="col-lg-4 mt-2">
+            <div class="stepBox">
+                <h1>2</h1>
+                <p>Contact email</p>
+            </div>
+        </div>
+        <!-- three  -->
+        <div class="col-lg-4 mt-2">
+            <div class="stepBox">
+                <h1>3</h1>
+                <p>Your photo processing...</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- foodbox  -->
+<div class="container mt-4 mb-4">
+    <h1 class="text-center" style="font-style: italic;">Your <span class="highlight" style="font-style: italic;">Favourites Photo</span></h1>
+    <div class="row">
+        <div class="col-lg-3 mt-3" *ngFor="let fd of photodata;index as i">
+            <div class="photobox" *ngIf="i<=3">
+                <img src="{{fd.photoImg}}" />
+                <h1>{{fd.name}}</h1>
+                <p>{{fd.email}}</p>
+                <p>{{fd.photoPrice | currency:'INR'}}</p>
+            </div>
+        </div>
+    </div>
+    <a routerLink="/photo" class="viewmorebtn">view more <i class="bi bi-arrow-right"></i></a>
+</div>

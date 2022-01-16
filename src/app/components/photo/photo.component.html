@@ -1,0 +1,15 @@
+<div class="container mt-5 mb-5">
+    <h1 id="title"> Photo </h1><br>
+    <div class="row">
+        <div class="col-lg-4" *ngFor="let fd of photodata">
+
+            <div class="photobox mt-3 mb-3">
+                <img src="{{fd.photoImg}}">
+                <h1>{{fd.name}}</h1>
+                <p>{{fd.email}}</p>
+                <p>$ {{fd.photoPrice}}</p>
+                <a class="buybtn" [routerLink]="['/menu',fd.id]">Buy Now &nbsp;<i class="bi bi-bag"></i></a>
+            </div>
+        </div>
+    </div>
+</div>

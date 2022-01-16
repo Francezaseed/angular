@@ -1,0 +1,9 @@
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    font-weight: bold;
+    background: linear-gradient(70deg,#3FC060,#03bcd4,#2196F3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}

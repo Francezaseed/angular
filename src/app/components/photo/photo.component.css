@@ -1,0 +1,38 @@
+
+#title {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    font-weight: bold;
+    background: linear-gradient(70deg,#3FC060,#03bcd4,#2196F3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: overline;
+}
+.foodbox 
+{
+    padding: 10px 10px;
+} 
+.photobox img
+{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.photobox h1 
+{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.buybtn
+{
+    background-color: #03bcd4;
+    color: #ffffff;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}

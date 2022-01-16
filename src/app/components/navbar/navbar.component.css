@@ -1,0 +1,61 @@
+*{
+    z-index: 1;
+}
+
+#title{
+    text-decoration: none;
+    font-size: 200%;
+    font-weight: bold;
+    padding-left: 20px;
+    background: linear-gradient(70deg,#3FC060,#03bcd4,#2196F3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#title:hover {
+    -webkit-mask-image: linear-gradient(10000deg, rgba(60, 255, 0, 0.6) 30%, rgb(108, 27, 236) 50%, rgba(255, 6, 151, 0.6) 70%);
+    animation: shine 1s infinite;
+  }
+  
+
+.navbar-name{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--secondary-color);
+    
+}
+.navbar-name:hover{
+    text-decoration: none;
+    font-size: 150%;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.container-fluid{
+    padding: 1px;
+}
+.nav-link {
+    font-size: 20px;
+}
+.nav-link:hover {
+    background: linear-gradient(70deg,#3FC060,#03bcd4,#2196F3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: var(--secondary-color);
+    text-decoration: black;
+}
+.navbar-light .navbar-nav .nav-link.active-link{
+    color: var(--primary-color);
+    font-weight: bold;
+    text-decoration: black;
+    background: linear-gradient(70deg,#3FC060,#03bcd4,#2196F3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#login:hover{
+    color: var(--primary-color);
+}
+#group:hover{
+    color: var(--primary-color);
+}
+
