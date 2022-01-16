@@ -17,6 +17,6 @@ Run `docker-compose up -d`
 -phpmyadmin running `http://localhost:8080/`
 -adminer runnung `http://localhost:8888/`
 
-## Run file server.js
+## 4. Run file server.js
 
 Run `nodemon node-backend/database/server.js`
